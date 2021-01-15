@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { Switch, Route, Link } from "react-router-dom";
 import "./App.css";
-import AboutUs from "./components/AboutUs/AboutUs";
+import About from "./components/About/About";
 import Home from "./components/Home/Home";
 
 function App() {
@@ -40,7 +40,7 @@ function App() {
 
       <Switch>
         <Route path="/about/:slug">
-          <AboutUs />
+          <About />
         </Route>
 
         <Route path="/">

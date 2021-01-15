@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-const AboutUs = (props) => {
+const AboutUs = () => {
   const { slug } = useParams();
   const [pokemon, setPokemon] = useState();
   useEffect(() => {
